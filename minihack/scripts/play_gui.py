@@ -6,6 +6,8 @@ import argparse
 import numpy as np
 import gym
 from nle import nethack
+import sys
+sys.path.append("envs/minihack")
 import minihack  # noqa
 from minihack.tiles.window import Window
 
