@@ -14,6 +14,8 @@ import tty
 import gym
 
 import nle  # noqa: F401
+import sys
+sys.path.append("envs/minihack")
 import minihack  # noqa: F401
 from nle import nethack
 import tempfile
@@ -312,7 +314,7 @@ def main():
 
     if flags.debug:
         import ipdb
-
+        
         cm = ipdb.launch_ipdb_on_exception
     else:
         cm = dummy_context
