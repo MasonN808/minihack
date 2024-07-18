@@ -17,7 +17,7 @@ def main():
     parser.add_argument(
         "--env",
         help="gym environment to load",
-        default="MiniHack-CorridorBattle-v0",
+        default="MiniHack-River-Narrow-v0",
     )
 
     args = parser.parse_args()
